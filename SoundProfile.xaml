@@ -1,0 +1,29 @@
+﻿<Window x:Class="MapleRoll.SoundProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MapleRoll"
+        mc:Ignorable="d"
+        Title="SoundProfile" Height="161" Width="210" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" MouseDown="Window_MouseDown">
+    <Border CornerRadius="15" BorderBrush="Black" BorderThickness="1" Padding="4" Background="Black">
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="/Connect/neon_beach_round_window.png"/>
+            </Grid.Background>
+            <Rectangle HorizontalAlignment="Left" Height="100" Margin="4,35,0,0" Stroke="Black" VerticalAlignment="Top" Width="190" Fill="#CC000000"/>
+            <Label Content="Sound Profile" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Width="154" FontSize="22" FontWeight="Bold" Margin="0,-5,0,0"/>
+            <Button x:Name="btn_Close" Content="" HorizontalAlignment="Left" Margin="173,0,0,0" VerticalAlignment="Top" Height="24" Width="27" BorderBrush="#00707070" Click="btn_Close_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Connect/Clsoe button.png"/>
+                </Button.Background>
+            </Button>
+            <RadioButton x:Name="rbt_Default" Content="Default" HorizontalAlignment="Left" Margin="17,48,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="12" GroupName="Profile" IsChecked="True" Checked="ChangeProfile"/>
+            <RadioButton x:Name="rbt_Bender" Content="Bender" HorizontalAlignment="Left" Margin="108,48,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="12" GroupName="Profile" Checked="ChangeProfile"/>
+            <RadioButton x:Name="rbt_Mario" Content="Mario" HorizontalAlignment="Left" Margin="17,77,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="12" GroupName="Profile" Checked="ChangeProfile"/>
+            <RadioButton x:Name="rbt_Zelda" Content="Zelda" HorizontalAlignment="Left" Margin="108,77,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="12" GroupName="Profile" Checked="ChangeProfile"/>
+            <RadioButton x:Name="rbt_FamilyGuy" Content="Family Guy" HorizontalAlignment="Left" Margin="17,104,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="12" Height="17" GroupName="Profile" Checked="ChangeProfile"/>
+            <RadioButton x:Name="rbt_Southpark" Content="Southpark" HorizontalAlignment="Left" Margin="108,106,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="12" GroupName="Profile" Checked="ChangeProfile"/>
+        </Grid>
+    </Border>
+</Window>

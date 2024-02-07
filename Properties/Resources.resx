@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ah_bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\ah_bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ah_crap_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\ah_crap_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="almost_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\almost_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="and_its_gone_Southpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\and_its_gone_Southpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\bob.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bounce_Zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\bounce_Zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bow_chicka_wow_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\bow_chicka_wow_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bro_mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\bro_mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chest1_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\chest1_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chest_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\chest_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="coin_mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\coin_mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="congratulations_Familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\congratulations_Familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="count_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\count_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dissapointment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\dissapointment.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="door_shuts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Connect\door_shuts.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="emotional-damage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\emotional-damage.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="futurama_theme_bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\futurama_theme_bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="geez_thats_terrible_south_park" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\geez_thats_terrible_south_park.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="giggty_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\giggty_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="goodbye_suothpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\goodbye_suothpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="goodnight_losers_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\goodnight_losers_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="harry_potter_theme_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\harry_potter_theme_hq.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ha_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\ha_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hello_Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\hello_Mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hey_listen_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\hey_listen_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hey_southpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\hey_southpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hi_five_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\hi_five_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="holy_moly_southpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\holy_moly_southpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="intro_Southpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\intro_Southpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="item_Zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\item_Zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="its_mario_time_Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\its_mario_time_Mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="its_me_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\its_me_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jackpot_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\jackpot_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="knocking_on_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Connect\knocking_on_door.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lets_go_get_drunk_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\lets_go_get_drunk_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="link_death_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\link_death_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="link_fall_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\link_fall_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="low_hp_Zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\low_hp_Zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mama_mia_mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\mama_mia_mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mario_yahoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\mario_yahoo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\nice.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nice_Southpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\nice_Southpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="niiice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\niiice.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nope_Sticky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\nope_Sticky.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\no_bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="no_swiping_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\no_swiping_Default.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oh_man_deafult" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\oh_man_deafult.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oh_my_god_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\oh_my_god_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oh_uh_mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\oh_uh_mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oh_yeah_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\oh_yeah_Default.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="omg_no_way_Southpark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\omg_no_way_Southpark.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pass_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\pass_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piece-ofcandy_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\piece-ofcandy_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prayer_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\prayer_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="roll_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\roll_default.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="secret_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\secret_zelda.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="see_you_soon_Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\see_you_soon_Mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shut_up_meg_familyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\shut_up_meg_familyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="star_theme_mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\star_theme_mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="stop_mocking_me_falimyguy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\stop_mocking_me_falimyguy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="theme_Hum_Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\theme_Hum_Mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wahhhhh_mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\wahhhhh_mario.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="whoa_mama_Bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\whoa_mama_Bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wow_c_101soundboards" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\wow_c_101soundboards.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yeah_bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\yeah_bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yeah_yes_south" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\yeah_yes_south.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yer_a_wizard_harry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\yer_a_wizard_harry.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="you_bastard_bender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Roll\Sounds\you_bastard_bender.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

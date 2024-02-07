@@ -1,0 +1,215 @@
+﻿<Project Sdk="Microsoft.NET.Sdk;Microsoft.NET.Sdk.Publish">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://download.mapleroll.mymaple.online/</UpdateUrl>
+    <SupportUrl>https://discord.gg/fkNu9f8uyu</SupportUrl>
+    <ProductName>MapleRoll Client</ProductName>
+    <PublisherName>MonoBehaviour Games</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2CDB95AA65961236C271B59AF826E0B4805FC64E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MapleRoll_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MapleRoll.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>MapleRollIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Copyright>Copyright Monobehavior Games 2024</Copyright>
+    <PackageIcon>MaplebotIcon.ico</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_paper7.png" />
+    <Resource Include="Greed\neon_beach_desktop_8k_ultr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="neon_beach_desktop_8k_paper9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="neon_beach_desktop_8k_paper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="neon_beach_desktop_8k_paper7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_paper8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_paper10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_ultr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_ultr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_paper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_paper9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_desktop_8k_paper4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_Mountain_desktop_8k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="neon_Mountain_desktop_8k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\neon_beach_round_window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Roll\neon_beach_desktop_8k_ultr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Roll\neon_beach_desktop_8k_with_moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Connect\Clsoe button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MaplebotIcon.ico" />
+    <Resource Include="RPS\Paper_Black_Filled.png" />
+    <Resource Include="RPS\Rock_Black_Filled.png" />
+    <Resource Include="RPS\Scissors_Black_Filled.png" />
+    <Resource Include="RPS\Paper_Black.png" />
+    <Resource Include="RPS\Paper_Grey.png" />
+    <Resource Include="RPS\Paper_NoCircle_Black.png" />
+    <Resource Include="RPS\Paper_NoCircle_Grey.png" />
+    <Resource Include="RPS\Paper_NoCircle_White.png" />
+    <Resource Include="RPS\Paper_White.png" />
+    <Resource Include="RPS\Rock_Black.png" />
+    <Resource Include="RPS\Rock_Grey.png" />
+    <Resource Include="RPS\Rock_NoCircle_Black.png" />
+    <Resource Include="RPS\Rock_NoCircle_Grey.png" />
+    <Resource Include="RPS\Rock_NoCircle_White.png" />
+    <Resource Include="RPS\Rock_White.png" />
+    <Resource Include="RPS\Scissors_Black.png" />
+    <Resource Include="RPS\Scissors_Grey.png" />
+    <Resource Include="RPS\Scissors_NoCircle_Black.png" />
+    <Resource Include="RPS\Scissors_NoCircle_Grey.png" />
+    <Resource Include="RPS\Scissors_NoCircle_White.png" />
+    <Resource Include="RPS\Scissors_White.png" />
+    <Resource Include="Coin\Flip_Icon.png" />
+    <Resource Include="Coin\Heads_Icon.png" />
+    <Resource Include="Coin\Tails_Icon.png" />
+    <Content Include="Connect\door_shuts.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Connect\knocking_on_door.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MapleRollIcon.ico" />
+    <Content Include="Roll\dissapointment.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roll\emotional-damage.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roll\bob.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roll\harry_potter_theme_hq.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roll\mario_yahoo.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roll\wow_c_101soundboards.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Roll\yer_a_wizard_harry.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.NET.Build.Containers" Version="8.0.101" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Coin\CoinWindow.xaml.cs" />
+    <Compile Remove="Greed\Window1.xaml.cs" />
+    <Compile Remove="Roll\PersonalRollWindow123.xaml.cs" />
+    <None Remove="Connect\door_shuts.wav" />
+    <None Remove="Connect\knocking_on_door.wav" />
+    <None Remove="Greed\neon_beach_desktop_8k_ultr.png" />
+    <None Remove="Roll\bob.wav" />
+    <None Remove="Roll\dissapointment.wav" />
+    <None Remove="Roll\emotional-damage.wav" />
+    <None Remove="Roll\harry_potter_theme_hq.wav" />
+    <None Remove="Roll\mario_yahoo.wav" />
+    <None Remove="Roll\nice-101soundboards.wav" />
+    <None Remove="Roll\yer_a_wizard_harry.wav" />
+    <Page Remove="Coin\CoinWindow.xaml" />
+    <Page Remove="Greed\Window1.xaml" />
+    <Page Remove="Roll\PersonalRollWindow123.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\MapleDesktop2.0\MaplebotIcon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
